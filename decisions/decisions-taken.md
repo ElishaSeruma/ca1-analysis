@@ -11,4 +11,5 @@ I then defined a final business problem statement"Kerry Enterprise Development N
 
 The next step was to create a domain glossary in /glossary where i would try to note down all the words of relevance and give them meaning with accoradnce to the scenario document with refrence to where these definitions are being derived from.
 
+The next step taken was to derive the stakeholders and do requirements analysis
 

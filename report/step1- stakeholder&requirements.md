@@ -43,6 +43,26 @@ Develop a central Business Training and Mentoring Service Coordination System th
 
 
 **Present Process**
+KEDN is currently receiving requests for events, mentoring/ both though multiple channels. Requests may be incomeplete/ incorrectly submitted and staff memebers have to sift through these requests and distinguish whats an initial interest, whats an actual request thats awaiting evidence & requests ready for a decision. 
+
+Participant goals, registrations, event schedules, mentor availability are held in separate spreadsheets documentation(forms & email).
+
+Currently suitability dependson the participants business stage, goals, previous support and practical participation requirements. 
+
 **Consequences**
+Staff coordinate event allocations around capacity, venue and facilitator constraints. Mentor matching also considers experience, conflicts of interest, location, availability and participant goals. Some arrangements remain provisional while essential information is missing. Progress, decisions and outstanding actions are recorded using notes, messages and spreadsheets, with teams using status terms differently. Changes and reviews can affect linked arrangements and generate further actions or escalation.
+
+***This process brings up consequences not limited to:***
+- Staff coordinating the events allocations based on capacity, venues, and facilitatorconstraints.
+- Mentor matching is made to require: (experience, conficts of interest, location, availability, & participant goals )
+- Some requests are not processed due to missing information on both sides: (progress, decisions awaiting approal). These requests and processes are thereby recorded on notes, messages, spreadsheets.
+- Teams using different terms and language for status for requests
+
+*To be noted changes will affect already linked arrangements and generate potential new problems that will require their own resolution process*
+
+
+ 
+
 **Evidence assumption Table**
+
 **Dependencies & Constraints**

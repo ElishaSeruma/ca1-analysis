@@ -40,3 +40,9 @@ Develop a central Business Training and Mentoring Service Coordination System th
 - Specialist professional systems
 - Financial accounting (fees, invoicing, payroll)
 - Unrelated public website functions
+
+
+**Present Process**
+**Consequences**
+**Evidence assumption Table**
+**Dependencies & Constraints**

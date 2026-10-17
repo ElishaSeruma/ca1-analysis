@@ -49,8 +49,10 @@ Participant goals, registrations, event schedules, mentor availability are held 
 
 Currently suitability dependson the participants business stage, goals, previous support and practical participation requirements. 
 
+
+
 **Consequences**
-Staff coordinate event allocations around capacity, venue and facilitator constraints. Mentor matching also considers experience, conflicts of interest, location, availability and participant goals. Some arrangements remain provisional while essential information is missing. Progress, decisions and outstanding actions are recorded using notes, messages and spreadsheets, with teams using status terms differently. Changes and reviews can affect linked arrangements and generate further actions or escalation.
+
 
 ***This process brings up consequences not limited to:***
 - Staff coordinating the events allocations based on capacity, venues, and facilitatorconstraints.
@@ -61,8 +63,45 @@ Staff coordinate event allocations around capacity, venue and facilitator constr
 *To be noted changes will affect already linked arrangements and generate potential new problems that will require their own resolution process*
 
 
+Scenario identifies a well identifiable problem with determining whats pending action and who is responsible for that process to move forward.
+
+Participants need to understand whethere they are awaiting new information from KEDN, a decision or an external organisations confirmation. 
+
+Halted partial requests end up blocking the pipleine for capacity to open up
+
+Inconsistent standards for priorities and exceptiona are making it harder for decisions to be made correctly and consitently and ptotrayed to participants.
+
  
 
 **Evidence assumption Table**
+| Scenario evidence | Temporary assumption or interpretation | Question / clarification needed |
+|---|---|---|
+| Requests can be for an event, mentoring or both, and may be incomplete. Source: Requests, eligibility and preparation. | A2 proposes that event and mentoring requests share a stage model. The scenario does not confirm identical stages or transitions. | Q1: what makes a request ready for decision? Also confirm whether event and mentoring components progress separately. |
+| Teams use different status terms, making pending work and responsibility difficult to identify. Source: Progress, review and exceptions. | A3 proposes one responsible coordinator per request. This does not establish who owns each individual action. | Extend Q6 to ask how actions are assigned and tracked alongside reviews and versions; confirm request-level responsibility. |
+| Provisional arrangements can block capacity after a request stalls. Source: Administrator statement. | An expiry or review mechanism is a proposed response. No fixed duration or automatic release rule is confirmed. | Q4: when should provisional arrangements expire or become confirmed, and who authorises release? |
+| Another person or organisation may assist with a request, but the required authority is unclear. Source: Requests, eligibility and preparation. | Assistance alone is not treated as evidence of permission to receive detailed information or approve decisions. This is a proposed cautious working position, not a confirmed KEDN policy. | Q3: what authority must be recorded, and which actions does it permit? |
+| Partners need role-relevant information; reports should avoid unnecessary personal or commercially sensitive information. Source: Information, reporting and scope. | Specific access fields and retention obligations remain unconfirmed. A7 requires refinement rather than being treated as evidence of a particular legal jurisdiction. | Q7: what can each role receive, and who confirms applicable data-protection and retention obligations? |
 
 **Dependencies & Constraints**
+
+| Dependency | Relevance to the proposed service |
+|---|---|
+| Current mentor availability and suitability information, together with event, venue and facilitator constraints. | Staff need this information to assess whether an allocation is feasible. Who supplies and updates it must be confirmed. |
+| KEDN decisions about readiness, eligibility, priority, representative authority and approvals. | Requirements can record these decisions, but the analysis cannot invent the policies. Q1-Q5 remain dependencies for finalising the rules. |
+| Agreed relationships between reviews, versions and outstanding actions. | Preserving decision evidence and identifying the current confirmed position depend on resolving Q6. |
+| Agreed information-sharing permissions. | Staff, partner and funder access/report content depend on resolving Q7. |
+| Outside organisations involved in particular requests. | KEDN may need to track an outstanding external contribution. The scenario does not confirm response commitments or integrations with partner systems. |
+
+
+***Constraints table***
+ 
+| Item | Status | Effect on scope or analysis |
+|---|---|---|
+| Initial scope covers service coordination and records; specialist professional systems, financial accounting and unrelated public website functions are excluded. | Explicit scenario boundary. | Limits what the proposed system is intended to support. |
+| External partners should receive only role-relevant information; reporting should avoid unnecessary personal or commercially sensitive information. | Explicit scenario restriction. | Limits disclosure and report content. Detailed permissions remain Q7. |
+| Connectivity may be unreliable during off-site work. | Explicit operating condition. | Coordination and record-keeping must account for interruptions. A particular offline storage or synchronisation mechanism is not confirmed. |
+| Applicable data-protection and retention obligations. | Require confirmation; existing A7 is provisional. | Confirm the obligations before specifying detailed retention or disclosure policies. |
+| Request, event and mentor volumes, including peak activity. | Not stated; Q8. | Prevents justified workload and performance targets from being finalised. This is an unknown, not a confirmed capacity limit. |
+| Implementation budget and available delivery resources. | Not stated. | Feasibility and release scope cannot be justified using invented budget or staffing limits. |
+
+Migration of existing records may become a dependency if KEDN requires historical data to be carried into the proposed system (A6). The presence of spreadsheets does not itself confirm a migration requirement.

@@ -49,16 +49,13 @@ Participant goals, registrations, event schedules, mentor availability are held 
 
 Currently suitability dependson the participants business stage, goals, previous support and practical participation requirements. 
 
-
+Staff coordinate event allocations around capacity, venue and facilitator constraints. Mentor matching also considers experience, conflicts of interest, location, availability and participant goals. Some arrangements remain provisional while essential information is missing. Progress, decisions and outstanding actions are recorded using notes, messages and spreadsheets, with teams using status terms differently. Changes and reviews can affect linked arrangements and generate further actions or escalation.
 
 **Consequences**
 
 
 ***This process brings up consequences not limited to:***
-- Staff coordinating the events allocations based on capacity, venues, and facilitatorconstraints.
-- Mentor matching is made to require: (experience, conficts of interest, location, availability, & participant goals )
-- Some requests are not processed due to missing information on both sides: (progress, decisions awaiting approal). These requests and processes are thereby recorded on notes, messages, spreadsheets.
-- Teams using different terms and language for status for requests
+
 
 *To be noted changes will affect already linked arrangements and generate potential new problems that will require their own resolution process*
 
@@ -77,10 +74,11 @@ Inconsistent standards for priorities and exceptiona are making it harder for de
 | Scenario evidence | Temporary assumption or interpretation | Question / clarification needed |
 |---|---|---|
 | Requests can be for an event, mentoring or both, and may be incomplete. Source: Requests, eligibility and preparation. | A2 proposes that event and mentoring requests share a stage model. The scenario does not confirm identical stages or transitions. | Q1: what makes a request ready for decision? Also confirm whether event and mentoring components progress separately. |
-| Teams use different status terms, making pending work and responsibility difficult to identify. Source: Progress, review and exceptions. | A3 proposes one responsible coordinator per request. This does not establish who owns each individual action. | Extend Q6 to ask how actions are assigned and tracked alongside reviews and versions; confirm request-level responsibility. |
+| Teams use different status terms, making pending work and responsibility difficult to identify. Source: Progress, review and exceptions. | A3 proposes one responsible coordinator per request. This does not establish who owns each individual action. | Q6: how should versions, reviews and outstanding actions be linked, how is the current confirmed arrangement identified, and who is responsible for the request and each resulting action? |
 | Provisional arrangements can block capacity after a request stalls. Source: Administrator statement. | An expiry or review mechanism is a proposed response. No fixed duration or automatic release rule is confirmed. | Q4: when should provisional arrangements expire or become confirmed, and who authorises release? |
 | Another person or organisation may assist with a request, but the required authority is unclear. Source: Requests, eligibility and preparation. | Assistance alone is not treated as evidence of permission to receive detailed information or approve decisions. This is a proposed cautious working position, not a confirmed KEDN policy. | Q3: what authority must be recorded, and which actions does it permit? |
-| Partners need role-relevant information; reports should avoid unnecessary personal or commercially sensitive information. Source: Information, reporting and scope. | Specific access fields and retention obligations remain unconfirmed. A7 requires refinement rather than being treated as evidence of a particular legal jurisdiction. | Q7: what can each role receive, and who confirms applicable data-protection and retention obligations? |
+| Partners need role-relevant information; reports should avoid unnecessary personal or commercially sensitive information. Source: Information, reporting and scope. |A7 leaves the applicable data-protection and retention obligations subject to confirmation. Detailed access permissions and retention periods are not established by the scenario. | Q7: which information may each role receive, and who confirms the applicable data-protection obligations, retention periods and disposal rules?
+|
 
 **Dependencies & Constraints**
 

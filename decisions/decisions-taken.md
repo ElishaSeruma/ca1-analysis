@@ -13,3 +13,4 @@ The next step was to create a domain glossary in /glossary where i would try to 
 
 The next step taken was to derive the stakeholders and do requirements analysis
 
+The stakeholders & requirements got an update where added more work on presetn process, consequendes, edivence and assumptions, dependencies & constraints

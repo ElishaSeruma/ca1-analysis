@@ -43,3 +43,19 @@
 | Q6 | How should versions, reviews and outstanding actions be linked, how is the current confirmed arrangement identified, and who is responsible for the request and each resulting action? | Defines how earlier evidence is preserved while the current arrangement, pending actions and ownership remain clear. |
 | Q7 | Which information may each role receive, and who confirms the applicable data-protection obligations, retention periods and disposal rules? | Defines permitted sharing and reporting, and identifies who must confirm retention and disposal requirements. |
 | Q8 | What are typical volumes of requests, events and mentors per month? | Provides workload evidence needed to justify capacity and performance targets. |
+
+
+
+# Business-rule revision
+
+These are targeted refinements to existing BR01-BR07. They do not confirm new KEDN policies. Actual project rules remain unchanged.
+
+| ID | Revised rule | Evidence / status |
+|---|---|---|
+| BR01 | An allocation is suitable only when all applicable essential requirements are satisfied; a vacancy alone is insufficient. | Supported by Allocation and coordination and Coordinator statement; essential criteria/exception policy require Q2. |
+| BR02 | A provisional allocation remains distinct from a confirmed arrangement. Its review/expiry point and permitted review outcomes must follow an agreed policy; reaching that point does not itself imply confirmation or automatic release. | Provisional arrangements and blocked capacity are evidenced. Review mechanism is proposed under Q4; duration, extensions, release authority and capacity effects are unconfirmed. |
+| BR03 | A change or review must preserve the basis of earlier decisions and arrangements. | Supported by Allocation and coordination and Reviewer statement. Version relationships remain Q6. |
+| BR04 | Silence or non-response is not approval. An operational update is not a formal decision unless explicit approval by an authorised role has been recorded. | The distinction and prohibition on silence as approval are explicit; precise approval record and role matrix require Q5. |
+| BR05 | Partners receive only information necessary for their role. | Explicit scenario restriction. Actual fields, involvement/access conditions and permissions remain Q7. |
+| BR06 | Conflicts of interest must be considered when assessing a mentor match; whether a conflict prohibits matching or permits an authorised exception requires agreement. | The scenario lists conflicts as a factor, not an absolute bar. Resolve Q2 before adopting a stricter prohibition. |
+| BR07 | Reasons for delay, withdrawal and incomplete outcomes must be recorded consistently. | The manager explicitly needs consistent reasons. Requiring a reason for every such record is a proposed operationalisation; a mandatory standard list and its categories are not confirmed. |

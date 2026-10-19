@@ -21,11 +21,11 @@
 
 
 
-**Distinguishing changes from decisions (worth adding to FR10 or as its own requirement):** the scenario says staff must "distinguish an operational change from a formal decision and avoid treating silence as approval". This maps directly to business rule BR04 below.
+**Decision recording:** The scenario distinguishes operational changes from formal decisions and prohibits treating silence as approval. BR04 records this rule. FR10 addresses preservation of decision history; the approval behaviour remains subject to Q5.
 
 ---
 
-## 6. Non-functional requirements (the brief asks for at least 4, all measurable)
+## Non-functional requirements
 
 | ID | Category | Requirement (measurable) | Source | MoSCoW | Verification |
 |---|---|---|---|---|---|
@@ -35,7 +35,7 @@
 | NFR04 | Auditability | 100% of stage changes and decisions shall record who made them, when, and the reason; audit records shall not be editable. | SH06 and SH07 quotes | Must | Audit log inspection |
 | NFR05 | Usability | A participant or staff member shall be able to identify a request's current stage and what it waits on within 2 interactions/30 seconds. | SH03 quote | Should | Usability test with 5 users |
 | NFR06 | Retention / compliance | Personal data shall be retained and deleted according to KEDN's retention policy (period to be confirmed). | GDPR, Assumption A7 | Must | Policy review (depends on Q7) |
-| NFR07 | Performance | The coordinator exception view shall load within 3 seconds for up to [volume, Q8] open requests. | Coordinator needs | Could | Load test |
+| NFR07 | Performance | The coordinator exception view shall load within 3 seconds under a workload to be agreed through Q8 (provisional target under A8). | Coordinator needs; workload unresolved under Q8 | Could | Load test after workload and test conditions are agreed |
 
 
 

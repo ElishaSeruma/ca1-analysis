@@ -1,3 +1,22 @@
+# Use cases
+
+## Shared scope and access assumptions
+
+**System:** Business Training and Mentoring Service Coordination System.
+
+The system supports service coordination and records: requests, assessments, allocations, progress, actions, review history and reporting. Specialist professional systems, financial accounting and unrelated public website functions remain outside the boundary.
+
+The following access arrangements are proposed analysis assumptions, not confirmed KEDN policies:
+
+- Coordinator, Administrator, Reviewer and Manager interact directly with the system for the goals listed below.
+- Participants, mentors, facilitators and participant representatives communicate through staff rather than using the system directly.
+- Funders receive summaries supplied by staff. Candidate information-governance roles and the inferred venue provider have no assumed direct interaction.
+- Direct Partner representative access is conditional and deferred under UC13 until its functional capability and Q7 permissions are agreed. Staff-mediated sharing remains the working arrangement meanwhile.
+
+No supporting actor is established for these interactions. Organisational decisions remain with authorised staff; software checks and records do not supply approval authority. See the [actor-goal catalogue](../stakeholders/actor-goal.md) for the corresponding roles and goals.
+
+## Catalogue
+
 | ID | Use case | Primary actor | Requirement links | Status |
 |---|---|---|---|---|
 | UC01 | Review Allocation Exceptions | Coordinator | FR13 | Proposed; policy/access validation required |
@@ -6,13 +25,13 @@
 | UC04 | Assess Request Suitability | Coordinator | FR05 | Proposed; policy/access validation required |
 | UC05 | Allocate Mentor | Coordinator | FR06; FR08 for a provisional arrangement | Proposed; policy/access validation required |
 | UC06 | Allocate Event Place | Coordinator | FR07; FR08 for a provisional arrangement | Proposed; policy/access validation required |
-| UC07 | Review Provisional Allocation | Coordinator | FR08, FR13; review outcome capability is incomplete | Discovery candidate; unresolved capability/boundary |
+| UC07 | Review Provisional Allocation | Coordinator | FR08, FR13 | Limited to viewing provisional/expiry information and flags; disposition deferred under Q4 |
 | UC08 | Record Representative Authority | Administrator | FR12 | Proposed; policy/access validation required |
 | UC09 | Coordinate Follow-up Actions | Administrator | FR09 | Proposed; policy/access validation required |
 | UC10 | Record Service Outcome | Administrator | FR11; FR03 for applicable stage changes | Proposed; policy/access validation required |
 | UC11 | Record Request Review | Reviewer | FR10, FR09 | Proposed; policy/access validation required |
 | UC12 | Generate Outcome Summary | Manager | FR14; NFR02 constrains content | Proposed; policy/access validation required |
-| UC13 | View Role-relevant Request Information | Partner representative | NFR01; functional retrieval requirement missing | Discovery candidate; unresolved capability/boundary |
+| UC13 | View Role-relevant Request Information | Partner representative (conditional) | NFR01 constrains access; functional retrieval capability not specified | Deferred candidate; direct access and functional scope require agreement |
 
 ## Brief descriptions
 
@@ -66,11 +85,11 @@ The coordinator identifies the request and proposed event. The system presents c
 
 ### UC07 - Review Provisional Allocation
 
-**Primary actor:** Coordinator. **Trigger:** A provisional arrangement is flagged or otherwise needs review.
+**Primary actor:** Coordinator. **Trigger:** The coordinator needs to inspect a provisional arrangement, including one flagged as expired.
 
-The coordinator requests the arrangement and the system presents its provisional position, missing information and expiry information where an expiry has been agreed. The coordinator records the review finding. Confirmation, extension or release is not assumed to occur automatically: any permitted disposition depends on an agreed Q4 policy and appropriate authority. The stopping point is a recorded review outcome, with unresolved action identified.
+The coordinator requests the provisional arrangement information. The system presents its provisional status, recorded expiry and any expiry flag, together with relevant exception information. The coordinator identifies which arrangements need follow-up. The goal ends when the current provisional and expiry position is available for inspection; this use case does not record review findings or change the arrangement.
 
-**Evidence and uncertainty:** Allocation and coordination; Administrator statement. This is a discovery candidate: FR08 supports expiry and flags, but does not yet specify recording review findings or disposition.
+**Evidence and uncertainty:** Allocation and coordination; Administrator statement. FR08 supports expiry recording/flagging and FR13 supports provisional exception information. Recording a review outcome, extending an arrangement or releasing capacity is deferred until the required capability and Q4 policy are agreed. An expiry flag alone is not approval or automatic release. The expiry feature example tests FR08's system response, not a coordinator-initiated review flow.
 
 ### UC08 - Record Representative Authority
 
@@ -108,17 +127,17 @@ The reviewer identifies the request and relevant earlier arrangement/decision, s
 
 **Primary actor:** Manager. **Trigger:** Management or funder reporting is required.
 
-The manager specifies the reporting scope. The system produces the agreed outcome summary, excluding personal identifiers under FR14 and applying the agreed restrictions on commercially sensitive or identifying detail. The manager receives the summary for permitted use or distribution. The funder does not access the system directly in this benchmark.
+The manager specifies the reporting scope. The system produces the agreed outcome summary, excluding personal identifiers under FR14 and applying the agreed restrictions on commercially sensitive or identifying detail. The manager receives the summary for permitted use or distribution. The funder does not access the system directly under the proposed boundary.
 
 **Evidence and uncertainty:** Information, reporting and scope. Reporting scope/content remain Q7; numerical suppression thresholds remain proposed under A8.
 
 ### UC13 - View Role-relevant Request Information
 
-**Primary actor:** Partner representative. **Trigger:** A partner needs information for its involvement in a request.
+**Status:** Deferred, conditional candidate. **Potential primary actor:** Partner representative. **Potential trigger:** A partner needs information for its involvement in a request.
 
-The partner identifies the relevant request. The system checks that the requested access is permitted and returns only the information authorised for that role and involvement. If access is not permitted, no case information is disclosed. This is conditional on choosing direct partner access; staff-mediated sharing would require a different actor/goal.
+If direct partner access is adopted, the partner would identify the relevant request and the system would return only information permitted for that role and involvement. Unauthorised access would disclose no case information. Until that capability is specified and access rules are agreed, partners receive permitted information through staff; UC13 is not a committed direct-access capability.
 
-**Evidence and uncertainty:** Information, reporting and scope; Partner representative statement. Q7 must establish permissions. Direct access is a proposal consistent with current NFR01, not an explicit scenario fact.
+**Evidence and uncertainty:** Information, reporting and scope; Partner representative statement. NFR01 constrains disclosure but does not specify the retrieval function. Direct access requires an agreed functional requirement and Q7 permissions. The partner-access feature is retained as a conditional acceptance example for that future choice, not evidence that direct access is already in scope.
 
 ## UC06 - Allocate Event Place: fully dressed example
 
@@ -127,7 +146,7 @@ The partner identifies the relevant request. The system checks that the requeste
 - **Scope:** Business Training and Mentoring Service Coordination System.
 - **Level:** user goal.
 - **Primary actor:** Coordinator, assuming authority for this allocation has been established.
-- **Supporting actors:** none established for this interaction. Venue/facilitator information is already available to staff under the benchmark; no live external service is assumed.
+- **Supporting actors:** none established for this interaction. Venue/facilitator information is assumed to be available to staff for this interaction; no live external service is assumed.
 - **Stakeholder interests:** Participant seeks a feasible place; Coordinator needs a valid allocation; Administrator needs trustworthy capacity information; Facilitator and inferred Venue provider need their constraints respected.
 - **Related requirements:** FR07 principally; FR08 for the provisional extension; NFR04 for audit information. Existing arrangement history is protected in line with FR10, although amendment of an existing confirmed arrangement is outside this success path.
 
@@ -180,4 +199,4 @@ Role-based disclosure follows agreed Q7 permissions. Audit evidence follows prop
 - **Q5:** Who confirms an allocation and which changes need formal approval?
 - **Q7:** What request information may this role see?
 - How current must venue/facilitator information be, and who maintains it?
-- FR07 addresses preventing invalid confirmation. Explicit recording/acknowledgement, capacity consistency and interruption recovery need requirement review before treating this entire benchmark flow as an agreed specification.
+- FR07 addresses preventing invalid confirmation. Explicit recording/acknowledgement, capacity consistency and interruption recovery need requirement review before this flow can be treated as an agreed specification.

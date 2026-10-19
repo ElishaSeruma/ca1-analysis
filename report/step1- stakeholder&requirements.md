@@ -64,7 +64,7 @@ Scenario identifies a well identifiable problem with determining whats pending a
 
 Participants need to understand whethere they are awaiting new information from KEDN, a decision or an external organisations confirmation. 
 
-Halted partial requests end up blocking the pipleine for capacity to open up
+Provisional allocations can continue blocking capacity after the original request has stalled.
 
 Inconsistent standards for priorities and exceptiona are making it harder for decisions to be made correctly and consitently and ptotrayed to participants.
 
@@ -77,8 +77,7 @@ Inconsistent standards for priorities and exceptiona are making it harder for de
 | Teams use different status terms, making pending work and responsibility difficult to identify. Source: Progress, review and exceptions. | A3 proposes one responsible coordinator per request. This does not establish who owns each individual action. | Q6: how should versions, reviews and outstanding actions be linked, how is the current confirmed arrangement identified, and who is responsible for the request and each resulting action? |
 | Provisional arrangements can block capacity after a request stalls. Source: Administrator statement. | An expiry or review mechanism is a proposed response. No fixed duration or automatic release rule is confirmed. | Q4: when should provisional arrangements expire or become confirmed, and who authorises release? |
 | Another person or organisation may assist with a request, but the required authority is unclear. Source: Requests, eligibility and preparation. | Assistance alone is not treated as evidence of permission to receive detailed information or approve decisions. This is a proposed cautious working position, not a confirmed KEDN policy. | Q3: what authority must be recorded, and which actions does it permit? |
-| Partners need role-relevant information; reports should avoid unnecessary personal or commercially sensitive information. Source: Information, reporting and scope. |A7 leaves the applicable data-protection and retention obligations subject to confirmation. Detailed access permissions and retention periods are not established by the scenario. | Q7: which information may each role receive, and who confirms the applicable data-protection obligations, retention periods and disposal rules?
-|
+| Partners need role-relevant information; reports should avoid unnecessary personal or commercially sensitive information. Source: Information, reporting and scope. | A7 leaves the applicable data-protection and retention obligations subject to confirmation. Detailed access permissions and retention periods are not established by the scenario. | Q7: which information may each role receive, and who confirms the applicable data-protection obligations, retention periods and disposal rules? |
 
 **Dependencies & Constraints**
 

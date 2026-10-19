@@ -18,10 +18,10 @@
 - A1: One participant can hold several requests at once.
 - A2: Mentoring and event requests share the same stage model.
 - A3: Each request has one coordinator responsible for it at any time.
-- A4: Staff on-site have reliable connectivity; only off-site work is affected.
+- A4: Off-site connectivity may be unreliable. On-site reliability is not stated and requires confirmation.
 - A5: Course content delivery and marketing are out of scope.
-- A6: Existing spreadsheet data would need migrating.
-- A7: UK/EU GDPR applies.
+- A6: Existing records may need migrating if KEDN requires them in the proposed system. Which records and how much history to transfer require confirmation.
+- A7: Applicable data-protection and retention obligations require confirmation. The scenario establishes role-limited sharing, but not legal jurisdiction, retention periods or detailed permissions; see Q7.
 - A8: The NFR targets (5 minutes, 3 seconds, fewer than 5 participants) are proposed figures.
 
 **Risks**
@@ -31,12 +31,15 @@
 - R4: Staff keep using spreadsheets alongside the system, so records diverge.
 - R5: Offline edits conflict with each other on synchronisation.
 
-**Clarification questions** 
-- Q1: What information is required before a request is "ready for decision"?
-- Q2: How should eligibility, priority and exceptions be applied, and by whom?
-- Q3: What authority is needed when another person acts for the requester?
-- Q4: When should provisional allocations expire or become confirmed?
-- Q5: Who may approve changes, substitutions or withdrawal?
-- Q6: How should versions, reviews and outstanding actions be related?
-- Q7: Which information may be shared with staff, partners and funders?
-- Q8: What are typical volumes of requests, events and mentors per month?
+**Clarification questions**
+
+| ID | Question | Why it matters / what it blocks |
+|---|---|---|
+| Q1 | What information is required before a request is ready for decision? | Defines completeness checks and when a request may progress to a decision. |
+| Q2 | How should eligibility, priority and exceptions be applied, and by whom? | Defines consistent assessment rules and who may authorise exceptions. |
+| Q3 | What authority is needed when another person acts for the requester? | Determines what a representative may submit, receive or approve and what authority must be recorded. |
+| Q4 | When should provisional allocations expire or become confirmed, and who authorises release? | Defines confirmation and release rules so stalled arrangements do not keep blocking capacity. |
+| Q5 | Who may approve changes, substitutions or withdrawal? | Defines approval permissions and distinguishes an operational update from a formal decision. |
+| Q6 | How should versions, reviews and outstanding actions be linked, how is the current confirmed arrangement identified, and who is responsible for the request and each resulting action? | Defines how earlier evidence is preserved while the current arrangement, pending actions and ownership remain clear. |
+| Q7 | Which information may each role receive, and who confirms the applicable data-protection obligations, retention periods and disposal rules? | Defines permitted sharing and reporting, and identifies who must confirm retention and disposal requirements. |
+| Q8 | What are typical volumes of requests, events and mentors per month? | Provides workload evidence needed to justify capacity and performance targets. |

@@ -1,0 +1,44 @@
+@startuml
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+
+actor Coordinator
+actor Administrator
+actor Reviewer
+actor Manager
+actor "Partner representative" as Partner
+
+rectangle "Business Training and Mentoring\nService Coordination System" {
+  usecase "UC01\nReview Allocation Exceptions" as UC01
+  usecase "UC02\nRecord Participant Request" as UC02
+  usecase "UC03\nUpdate Request Progress" as UC03
+  usecase "UC04\nAssess Request Suitability" as UC04
+  usecase "UC05\nAllocate Mentor" as UC05
+  usecase "UC06\nAllocate Event Place" as UC06
+  usecase "UC07\nReview Provisional Allocation" as UC07
+  usecase "UC08\nRecord Representative Authority" as UC08
+  usecase "UC09\nCoordinate Follow-up Actions" as UC09
+  usecase "UC10\nRecord Service Outcome" as UC10
+  usecase "UC11\nRecord Request Review" as UC11
+  usecase "UC12\nGenerate Outcome Summary" as UC12
+  usecase "UC13\nView Role-relevant Request Information" as UC13
+}
+
+Coordinator -- UC01
+Coordinator -- UC04
+Coordinator -- UC05
+Coordinator -- UC06
+Coordinator -- UC07
+
+Administrator -- UC02
+Administrator -- UC03
+Administrator -- UC08
+Administrator -- UC09
+Administrator -- UC10
+
+Reviewer -- UC11
+Manager -- UC12
+Partner -- UC13
+
+@enduml

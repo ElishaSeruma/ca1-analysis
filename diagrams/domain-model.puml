@@ -1,0 +1,118 @@
+@startuml
+left to right direction
+hide methods
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+class Participant {
+  name
+  businessStage
+}
+class Request {
+  requestDate
+  arrivalChannel
+  supportType
+  goals
+  stage
+  waitingReason
+  outcomeReason
+}
+class Assessment {
+  assessmentDate
+  previousSupport
+  participationRequirements
+  outcome
+  reason
+}
+class Allocation {
+  allocationDate
+  status
+  expiryDate
+}
+class Mentor {
+  name
+  experience
+  location
+  availability
+}
+class Event {
+  title
+  eventDate
+  capacity
+  facilitatorConstraints
+}
+class Venue {
+  name
+  location
+  capacity
+}
+class StaffMember {
+  name
+  role
+}
+class Action {
+  description
+  dueDate
+  status
+}
+class Review {
+  reviewDate
+  findings
+}
+class ArrangementVersion {
+  versionNumber
+  recordedAt
+  status
+  expiryDate
+  changeReason
+}
+class Decision {
+  decisionDate
+  outcome
+  reason
+}
+class Representative {
+  name
+  representativeType
+}
+class Representation {
+  authorityScope
+  authorityEvidence
+}
+
+Participant "1" -- "0..*" Request : submits
+Request "1" -- "0..*" Assessment : has
+StaffMember "1" -- "0..*" Assessment : records
+Request "1" -- "0..*" Allocation : has
+Mentor "0..1" -- "0..*" Allocation : serves
+Event "0..1" -- "0..*" Allocation : receives
+Venue "0..1" -- "0..*" Event : hosts
+StaffMember "0..*" -- "0..*" Event : facilitates
+
+Request "1" -- "0..*" Action : has
+StaffMember "1" -- "0..*" Action : owns
+Request "1" -- "0..*" Review : receives
+StaffMember "1" -- "0..*" Review : records
+Review "0..1" -- "0..*" Action : generates
+
+Allocation "1" -- "1..*" ArrangementVersion : retains
+StaffMember "1" -- "0..*" ArrangementVersion : records
+Request "1" -- "0..*" Decision : has
+StaffMember "1" -- "0..*" Decision : makes
+Review "0..1" -- "0..*" Decision : informs
+Decision "0..1" -- "0..*" ArrangementVersion : authorises
+
+Participant "1" -- "0..*" Representation : has
+Representative "1" -- "0..*" Representation : holds
+
+note bottom of Allocation
+  Each allocation targets exactly one Event or Mentor.
+  A combined request can have separate allocations.
+end note
+
+note bottom of ArrangementVersion
+  Earlier versions remain available.
+  A changed target creates a new allocation.
+  Silence does not authorise a decision.
+end note
+@enduml

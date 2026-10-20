@@ -1,5 +1,7 @@
 # Business rules
 
+The first table is historical. The revised table below is the current rule set.
+
 | ID | Rule | Evidence | Status |
 |---|---|---|---|
 | BR01 | A vacancy counts as a match only when all essential requirements are satisfied. | Coordinator quote | Supported by evidence |
@@ -22,7 +24,7 @@
 - A5: Course content delivery and marketing are out of scope.
 - A6: Existing records may need migrating if KEDN requires them in the proposed system. Which records and how much history to transfer require confirmation.
 - A7: Applicable data-protection and retention obligations require confirmation. The scenario establishes role-limited sharing, but not legal jurisdiction, retention periods or detailed permissions; see Q7.
-- A8: The NFR targets (5 minutes, 3 seconds, fewer than 5 participants) are proposed figures.
+- A8: The five-minute sync target, reporting threshold below five, and usability targets are provisional.
 
 **Risks**
 - R1: Provisional allocations block capacity (Administrator quote).
@@ -48,7 +50,7 @@
 
 # Business-rule revision
 
-These are targeted refinements to existing BR01-BR07. They do not confirm new KEDN policies. Actual project rules remain unchanged.
+This table supersedes the first table. Unconfirmed policy details remain marked.
 
 | ID | Revised rule | Evidence / status |
 |---|---|---|
@@ -57,5 +59,5 @@ These are targeted refinements to existing BR01-BR07. They do not confirm new KE
 | BR03 | A change or review must preserve the basis of earlier decisions and arrangements. | Supported by Allocation and coordination and Reviewer statement. Version relationships remain Q6. |
 | BR04 | Silence or non-response is not approval. An operational update is not a formal decision unless explicit approval by an authorised role has been recorded. | The distinction and prohibition on silence as approval are explicit; precise approval record and role matrix require Q5. |
 | BR05 | Partners receive only information necessary for their role. | Explicit scenario restriction. Actual fields, involvement/access conditions and permissions remain Q7. |
-| BR06 | Conflicts of interest must be considered when assessing a mentor match; whether a conflict prohibits matching or permits an authorised exception requires agreement. | The scenario lists conflicts as a factor, not an absolute bar. Resolve Q2 before adopting a stricter prohibition. |
+| BR06 | Conflicts of interest must be considered when assessing a mentor match; whether a conflict prohibits matching or permits an authorised exception requires agreement. | The scenario lists conflicts as a factor, not an absolute bar. Any stricter prohibition depends on Q2. |
 | BR07 | Reasons for delay, withdrawal and incomplete outcomes must be recorded consistently. | The manager explicitly needs consistent reasons. Requiring a reason for every such record is a proposed operationalisation; a mandatory standard list and its categories are not confirmed. |

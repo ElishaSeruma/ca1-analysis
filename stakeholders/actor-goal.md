@@ -30,7 +30,7 @@ UC01-UC13 match the IDs, names and primary actors in [the use-case catalogue](..
 
 - **UC07:** Limited to viewing the provisional position, expiry and flags supported by FR08/FR13. Recording findings, extension and release remain deferred pending functional scope and Q4 agreement.
 - **UC13:** Deferred until direct partner access, its functional requirement and Q7 permissions are agreed. The related feature remains a conditional example; current sharing is staff-mediated.
-- **UC11:** The scenario distinguishes operational changes from formal decisions. FR10 preserves history, but approval/decision behaviour still needs clarification under Q5. Do not imply that every review authorises a change.
+- **UC11:** The scenario distinguishes operational changes from formal decisions. FR10 preserves history, but approval/decision behaviour still needs clarification under Q5. A review does not itself authorise a change.
 
 
 ## Offstage goals retained in the analysis
@@ -43,5 +43,5 @@ UC01-UC13 match the IDs, names and primary actors in [the use-case catalogue](..
 | Funder / SH09 | Suitable summary reporting. | UC12; report supply occurs through KEDN staff. |
 | Participant representative / SH10 | Assistance within valid authority. | UC08 and the permissions clarified by Q3/Q7. |
 | Candidate information-governance roles / SH11 | Appropriate disclosure and retention. | UC12/UC13 and cross-cutting privacy requirements; the roles themselves require confirmation. |
-| Inferred venue provider / SH12 | Feasible venue arrangements. | UC06 and venue constraints. |
+| Assumed venue provider / SH12 | Feasible venue arrangements. | UC06 and venue constraints. |
 

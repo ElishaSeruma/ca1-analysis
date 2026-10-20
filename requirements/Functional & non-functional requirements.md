@@ -34,8 +34,4 @@
 | NFR03 | Availability (offline) | Staff shall be able to record progress offline, and offline entries shall synchronise within 5 minutes of reconnection with no data loss. | "Connectivity may be unreliable" | Should | Simulated disconnection test |
 | NFR04 | Auditability | 100% of stage changes and decisions shall record who made them, when, and the reason; audit records shall not be editable. | SH06 and SH07 quotes | Must | Audit log inspection |
 | NFR05 | Usability | A participant or staff member shall be able to identify a request's current stage and what it waits on within 2 interactions/30 seconds. | SH03 quote | Should | Usability test with 5 users |
-| NFR06 | Retention / compliance | Personal data shall be retained and deleted according to KEDN's retention policy (period to be confirmed). | GDPR, Assumption A7 | Must | Policy review (depends on Q7) |
-| NFR07 | Performance | The coordinator exception view shall load within 3 seconds under a workload to be agreed through Q8 (provisional target under A8). | Coordinator needs; workload unresolved under Q8 | Could | Load test after workload and test conditions are agreed |
-
-
-
+| NFR06 | Retention / compliance | Personal records shall have a retention category and due date under the agreed policy. Records due for disposal shall be deleted or anonymised unless an authorised hold applies. Policy periods and disposal deadlines remain subject to Q7. | A7; retention policy under Q7 | Must | Test records before and at disposal dates, with and without a hold; deadlines depend on Q7 |

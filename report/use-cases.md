@@ -10,7 +10,7 @@ The following access arrangements are proposed analysis assumptions, not confirm
 
 - Coordinator, Administrator, Reviewer and Manager interact directly with the system for the goals listed below.
 - Participants, mentors, facilitators and participant representatives communicate through staff rather than using the system directly.
-- Funders receive summaries supplied by staff. Candidate information-governance roles and the inferred venue provider have no assumed direct interaction.
+- Funders receive summaries supplied by staff. Candidate information-governance roles and the assumed venue provider have no assumed direct interaction.
 - Direct Partner representative access is conditional and deferred under UC13 until its functional capability and Q7 permissions are agreed. Staff-mediated sharing remains the working arrangement meanwhile.
 
 No supporting actor is established for these interactions. Organisational decisions remain with authorised staff; software checks and records do not supply approval authority. See the [actor-goal catalogue](../stakeholders/actor-goal.md) for the corresponding roles and goals.
@@ -147,7 +147,7 @@ If direct partner access is adopted, the partner would identify the relevant req
 - **Level:** user goal.
 - **Primary actor:** Coordinator, assuming authority for this allocation has been established.
 - **Supporting actors:** none established for this interaction. Venue/facilitator information is assumed to be available to staff for this interaction; no live external service is assumed.
-- **Stakeholder interests:** Participant seeks a feasible place; Coordinator needs a valid allocation; Administrator needs trustworthy capacity information; Facilitator and inferred Venue provider need their constraints respected.
+- **Stakeholder interests:** Participant seeks a feasible place; Coordinator needs a valid allocation; Administrator needs trustworthy capacity information; Facilitator and assumed Venue provider need their constraints respected.
 - **Related requirements:** FR07 principally; FR08 for the provisional extension; NFR04 for audit information. Existing arrangement history is protected in line with FR10, although amendment of an existing confirmed arrangement is outside this success path.
 
 ### Conditions and guarantees
@@ -174,19 +174,19 @@ Steps 4 and 6 specify observable responsibilities, not internal methods or archi
 
 ### Extensions
 
-**2a. Request or event cannot be identified — recoverable exception or cancellation.** The system explains that allocation cannot proceed for the supplied reference. The coordinator corrects the identification and resumes at step 1, or cancels; cancellation ends without a new allocation.
+**2a. Request or event cannot be identified - recoverable exception or cancellation.** The system explains that allocation cannot proceed for the supplied reference. The coordinator corrects the identification and resumes at step 1, or cancels; cancellation ends without a new allocation.
 
-**4a. Essential evidence or constraint information is missing — no confirmed allocation.** The system identifies the missing basis and does not permit confirmation. The coordinator may supply the missing information and resume at step 3. If it cannot be supplied, the interaction ends without confirmation. A provisional outcome is available only under 4c.
+**4a. Essential evidence or constraint information is missing - no confirmed allocation.** The system identifies the missing basis and does not permit confirmation. The coordinator may supply the missing information and resume at step 3. If it cannot be supplied, the interaction ends without confirmation. A provisional outcome is available only under 4c.
 
-**4b. Capacity, venue or facilitator constraint is not satisfied — failure or retry.** The system explains the unsatisfied constraint and records no confirmed place. The coordinator may choose another event and resume at step 1, or end the attempt. No priority override is invented.
+**4b. Capacity, venue or facilitator constraint is not satisfied - failure or retry.** The system explains the unsatisfied constraint and records no confirmed place. The coordinator may choose another event and resume at step 1, or end the attempt. No priority override is invented.
 
-**4c. Agreed policy permits a provisional arrangement — alternative success.** The coordinator explicitly chooses a provisional arrangement, supplies the information required by the agreed Q4 policy, including an expiry if required by FR08, and requests its recording. The system validates that provisional recording is permitted, records and acknowledges the provisional position, and ends this interaction. The main confirmed-allocation guarantee is not achieved; the alternative guarantee is a clearly identified provisional arrangement. If no provisional policy has been agreed, this branch is unavailable. Whether/how provisional places consume capacity remains Q4.
+**4c. Agreed policy permits a provisional arrangement - alternative success.** The coordinator explicitly chooses a provisional arrangement, supplies the information required by the agreed Q4 policy, including an expiry if required by FR08, and requests its recording. The system validates that provisional recording is permitted, records and acknowledges the provisional position, and ends this interaction. The main confirmed-allocation guarantee is not achieved; the alternative guarantee is a clearly identified provisional arrangement. If no provisional policy has been agreed, this branch is unavailable. Whether/how provisional places consume capacity remains Q4.
 
-**5a. Coordinator cancels — cancellation.** No new confirmed allocation is recorded; the attempt ends. No provisional arrangement is created by silence.
+**5a. Coordinator cancels - cancellation.** No new confirmed allocation is recorded; the attempt ends. No provisional arrangement is created by silence.
 
-**6a. Relevant capacity or another constraint has changed since presentation — recoverable exception or failure.** The system does not confirm the now-invalid allocation and presents the changed position. The coordinator resumes at step 3 with updated information, selects a different event at step 1, or ends. The consistency safeguard is a proposed consequence of FR07, not a prescribed technical locking mechanism.
+**6a. Relevant capacity or another constraint has changed since presentation - recoverable exception or failure.** The system does not confirm the now-invalid allocation and presents the changed position. The coordinator resumes at step 3 with updated information, selects a different event at step 1, or ends. The consistency safeguard is a proposed consequence of FR07, not a prescribed technical locking mechanism.
 
-**6b. Confirmation authority is absent — failure.** The system refuses confirmation and explains that the required authority is missing. The interaction ends without a confirmed place. Any separate approval workflow requires Q5 clarification.
+**6b. Confirmation authority is absent - failure.** The system refuses confirmation and explains that the required authority is missing. The interaction ends without a confirmed place. Any separate approval workflow requires Q5 clarification.
 
 ### Special requirements
 
@@ -194,7 +194,7 @@ Role-based disclosure follows agreed Q7 permissions. Audit evidence follows prop
 
 ### Open issues and requirement refinements
 
-- **Q1/Q2:** What evidence and suitability conditions are prerequisites for allocation? The interaction must check them; do not hide unresolved validation in a precondition.
+- **Q1/Q2:** What evidence and suitability conditions are prerequisites for allocation? These conditions are checked during allocation.
 - **Q4:** When is confirmation allowed? Are provisional places permitted, when do they expire, and what capacity do they hold? FR08's expiry assumption must be reviewed with these answers.
 - **Q5:** Who confirms an allocation and which changes need formal approval?
 - **Q7:** What request information may this role see?

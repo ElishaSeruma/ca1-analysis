@@ -53,3 +53,11 @@ I then went back against the provisional user stories i did and kept modifying t
 ↓
 
 I also added the gherkin features for Confirm an event allocation, Preserve decision history during reviews, Restrict partner access to request information, Identify expired provisional allocations & Record a participant request
+
+↓
+
+I then generated the use case diagram and moved on to domain analysis and finalising that work and creating the domain model and finally completed the glossary 
+
+↓
+
+I then worked on the traceability.md to link all 14 FRs and 6 NFRs to evidence, stakeholder goals, use cases, verification and domain concepts. Ensurng all 11 "MUST" FRs have traceability links

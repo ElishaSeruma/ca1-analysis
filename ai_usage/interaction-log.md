@@ -42,3 +42,7 @@ Ai helped me come up with my generation for the features in gherkin
 ![alt text](image-8.png)
 
 ***After going through the rubric i realised "Clarification questions" were a big point of action in the Ai suggestions that werent included in the lecture notes so i spent some time rubbing those out of my work and explicitly told Ai not to suggest points with clarification questions. Ai had kept on suggesting leaving in open ended questions as i worked throught the project but after logically thinking about it, since there is no actual business to see and talk to, the assumptive questions weren't needed as previously thought.The questions were mainly of the tone: "This needs clarification, pending clarification depending on this clarifcation... after a major re-word i eventually cut them from the project."***
+
+Ai helped generate a use case diagram from my use cases
+
+Ai helped generate a domain model from my domain analysis
